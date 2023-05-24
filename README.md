@@ -99,6 +99,6 @@ person = 5
 for i in cook_book:
   print(i[0].capitalize() + ':')
   for j in i[1]:
-    print(j[0], str(int(j[1]) * person), j[2], sep=' ')
+    print(j[0], (j[1]) * person, j[2], sep=' ')
   print()
 ```
